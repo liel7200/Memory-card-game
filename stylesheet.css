@@ -1,0 +1,57 @@
+*{
+    text-align: center;
+    font-family: 'Gideon Roman', cursive, sans-serif;  
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+tr{
+    width: 493px;
+    height: 157px;
+}
+
+/* can't see the image but can see the card */
+.flipped{
+    background-color: aqua;
+    border: 5px solid black;
+    width: 100px;
+    height: 150px;
+    content-visibility: hidden;
+}
+
+/* can't see image and card */
+.hidden{
+    background-color: white;
+    border: 0px;
+    content-visibility: hidden;
+}
+
+
+/* can see the image but can't see the card */
+.visible{
+    content-visibility:visible;
+    visibility: visible;
+}
+
+td img{
+    width: 100px;
+    height: 150px;
+    border: 5px;
+}
+
+td.hidden > img{
+    visibility  : hidden;
+}
+
+td.visible > img{
+    visibility  : visible;
+}
+
+td.flipped > img{
+    visibility  : hidden;
+}
