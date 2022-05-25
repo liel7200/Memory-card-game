@@ -44,7 +44,7 @@ td img{
     border: 5px;
 }
 
-td.hidden > img{
+/* td.hidden > img{
     visibility  : hidden;
 }
 
@@ -55,3 +55,4 @@ td.visible > img{
 td.flipped > img{
     visibility  : hidden;
 }
+ */
